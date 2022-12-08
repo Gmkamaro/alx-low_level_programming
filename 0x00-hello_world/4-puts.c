@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - This is a description
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -10,10 +12,6 @@ int main(void)
 
 	puts(slm);
 
-/**
- * return - This is a description
- */
-	
-	return (0);
 
+	return (0);
 }
