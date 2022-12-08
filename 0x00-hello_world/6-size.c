@@ -5,13 +5,13 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void);
+int main(void)
 {
 
 	char a;
 	int b;
-	longint c;
-	longlongint d;
+	long int c;
+	long long int d;
 	float e;
 
 	printf("Size of a char: %lu.\n", (unsigned long)sizeof(a));
