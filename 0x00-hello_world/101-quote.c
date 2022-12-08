@@ -1,4 +1,6 @@
-#include <stldio.h>
+#include <stdio.h>
+
+#define MAXSTRING 80
 
 /**
  * main - Entry point
