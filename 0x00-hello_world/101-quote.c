@@ -1,25 +1,11 @@
 #include <stdio.h>
-
-#define MAXSTRING 80
-
+#include <unistd.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (sucess)
- */
+ * main - print string
+ * Return: 1 (Success)
+ **/
 int main(void)
 {
-	char msg[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-
-	for (int count = 0; count < MAXSTRING; count++)
-	{
-		if (msg[count] == '\0')
-		{
-			putchar('\n');
-			break;
-		}
-		else
-			putchar(msg[count]);
-	}
-	return (1);
+write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+return (1);
 }
