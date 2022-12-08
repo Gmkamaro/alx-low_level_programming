@@ -3,10 +3,10 @@
 int main(void)
 {
 
-	char slm[] = "\"Programming is like building a multilingual puzzle" ;
+	char slm[] = "\"Programming is like building a multilingual puzzle";
 
 	puts(slm);
 
-	return 0;
+	return (0);
 
 }
