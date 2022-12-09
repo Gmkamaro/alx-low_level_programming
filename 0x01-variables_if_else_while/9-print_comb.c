@@ -11,9 +11,10 @@ int main(void)
 	while (c <= '9')
 	{
 		putchar(c);
-		putchar(',');
-		putchar(' ');
 		c++;
+		putchar(' ');
+		if (c <= '8')
+			putchar(',');
 	}
 
 	return (0);
