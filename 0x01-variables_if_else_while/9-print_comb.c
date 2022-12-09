@@ -13,7 +13,7 @@ int main(void)
 		putchar(c);
 		c++;
 		putchar(' ');
-		if (c <= '8')
+		if (c <= '9')
 			putchar(',');
 	}
 
