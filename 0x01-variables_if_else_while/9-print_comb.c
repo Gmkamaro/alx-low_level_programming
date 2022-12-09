@@ -12,9 +12,11 @@ int main(void)
 	{
 		putchar(c);
 		c++;
-		putchar(' ');
 		if (c <= '9')
+		{
 			putchar(',');
+			putchar(' ');
+		}
 	}
 
 	return (0);
