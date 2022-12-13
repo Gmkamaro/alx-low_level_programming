@@ -12,7 +12,7 @@ int main(void)
 
 	while (slm[i] != '\0')
 	{
-		_putchar(holberton[i]);
+		_putchar(slm[i]);
 		i++;
 	}
 	_putchar('\n');
