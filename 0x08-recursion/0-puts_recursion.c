@@ -1,0 +1,18 @@
+#include "main.h"
+
+/**
+ *main - Entry point
+ *
+ * Return: 0 Always (Success)
+ */
+
+void _puts_recursion(char *s)
+{
+	if (*s == '\0')
+		_putchar('\n');
+	else
+	{
+		putchar(*s);
+		_puts_recursion(++s);
+	}
+}
