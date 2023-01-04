@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *main - Entry point
+ * _puts_recursion - print a string likethe function put but through recursion
  *
- * Return: 0 Always (Success)
+ * @s: is the pointer of the given string.
  */
 
 void _puts_recursion(char *s)
